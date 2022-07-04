@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+body {
+    background-image: url('../imagem/csgo_wallpaper.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+  font-size: .8rem;  
+}
+
+a:hover {
+    color: blue;
+}
+
+#login-caixa{
+    background-color: #736F64;
+    opacity: 80%;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    right: 200px;
+    
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#forgot-pass {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 20px;
+}
+
+#botao{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+button:hover{
+    background-color: black;
+
+}
+
+

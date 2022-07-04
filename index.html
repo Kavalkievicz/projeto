@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login e senha</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="login-caixa">
+        <h1>Login</h1>
+        <form action="" method="post" name="formulario">
+            <label for="nome">Login</label>
+            <input type="login" name="nome" id="login" placeholder="Insira seu Login" required autocomplete="off"> 
+                             <!--verificação-->
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua Senha" required>
+            <input id="botao" type="submit" onmouseenter="mudarcor()" 
+            onmouseout="voltarcor()" onclick="validar()" value="Entrar">
+            <a href="#" id="forgot-pass">Recuperar senha</a> 
+        </form>
+    </div>
+</body>
+</html>
