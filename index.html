@@ -10,17 +10,19 @@
 </head>
 <body>
     <div id="login-caixa">
-        <h1>Login</h1>
+        <h1 id="titulo">Login</h1>
         <form action="" method="post" name="formulario">
             <label for="nome">Login</label>
-            <input type="login" name="nome" id="login" placeholder="Insira seu Login" required autocomplete="off"> 
-                             <!--verificação-->
+            <input type="text" name="nome" id="login" placeholder="Insira seu Login" required autocomplete="off"> 
             <label for="password">Senha</label>
             <input type="password" name="password" id="password" placeholder="Digite sua Senha" required>
             <input id="botao" type="submit" onmouseenter="mudarcor()" 
             onmouseout="voltarcor()" onclick="validar()" value="Entrar">
-            <a href="#" id="forgot-pass">Recuperar senha</a> 
+            <a href="" id="esqueci-snh">Recuperar senha</a> 
         </form>
+    </div>
+    <div id="texto">
+        <p>Entre com seu Login e Senha, e tenha acesso a todo o histórico de partidas de seu time favorito de Counter-Strike: Global Ofensive.</p>
     </div>
 </body>
 </html>
